@@ -14,7 +14,7 @@ Link of Hosted Notebook : https://jup-doc.herokuapp.com/
 
 ## Demo
 
-![<img target="_blank" src="https://i.imgur.com/E3a3wnH.png" width=170>](https://jup-doc.herokuapp.com/)
+![https://jup-doc.herokuapp.com/](https://i.imgur.com/E3a3wnH.png)
 
 
 
