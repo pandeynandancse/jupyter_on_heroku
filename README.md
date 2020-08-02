@@ -17,31 +17,28 @@ Link of Hosted Notebook : https://jup-doc.herokuapp.com/
 ![https://jup-doc.herokuapp.com/](https://i.imgur.com/E3a3wnH.png)
 
 
-
-## Overview
-
-
 ## Directory Tree 
 ```
 
-├── Attendance.csv
+├── conf
+├── nbs
+├── scripts
+├── Docker_for_ai
+├── Dockerfile
+├── Pipfile
+├── Pipfile.lock
 ├── README.md
-├── activation.bat
-├── dataset_maker.py
-├── face_dataset_trainer.py
-├── haarcascade_frontalface_default.xml
-├── limitation.txt
-├── requirements.txt
-├── trainingData.yml
-├── webapp.py
+├── summary.txt
 
 
 
 ```
-In above directory structure outputs folder is created only when images and videos is required by user. Facility for choosing this option is given at top of side-bar of application.
-
-
-
+conf is for configuraation of notebook. Here, it is password protected.<br>
+nbs contains all notebooks that will be zipped and one another notebook that will load/unload all zipped notebooks. These zipped notebooks are your project notebooks.<br>
+scripts contains all essential shell scripts such as build and run docker file. Entrypoint of dockerfile and push and release script for and after deploying on heroku.<br>
+If you are working on AI project then use Docker_for_ai as Dockerfile so rename this file.<br>
+If you are working on normal project then use Dockerfile. In both dockerfiles you are free to add custom requirement and dependencies.<br>
+summary.txt is summary of this whole project.
 
 ## Bug / Feature Request
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/pandeynandancse/jupyter_on_heroku_using_docker/new) by including your search query and the expected result.
