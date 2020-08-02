@@ -33,12 +33,12 @@ Link of Hosted Notebook : https://jup-doc.herokuapp.com/
 
 
 ```
-conf is for configuraation of notebook. Here, it is password protected.<br>
-nbs contains all notebooks that will be zipped and one another notebook that will load/unload all zipped notebooks. These zipped notebooks are your project notebooks.<br>
-scripts contains all essential shell scripts such as build and run docker file. Entrypoint of dockerfile and push and release script for and after deploying on heroku.<br>
-If you are working on AI project then use Docker_for_ai as Dockerfile so rename this file.<br>
-If you are working on normal project then use Dockerfile. In both dockerfiles you are free to add custom requirement and dependencies.<br>
-Pipfile and Pipfile.lock are created automatically when pipenv environment is created .<br>
+1. conf is for configuration of notebook. Here, it is password protected.<br><br>
+2. nbs contains all notebooks that will be zipped and one another notebook that will load/unload all zipped notebooks. These zipped notebooks are your project notebooks.<br><br>
+3. scripts contains all essential shell scripts such as build and run docker file. Entrypoint of dockerfile and push and release script for and after deploying on heroku.<br><br>
+4. If you are working on AI project then use Docker_for_ai as Dockerfile so rename this file.<br><br>
+5. If you are working on normal project then use Dockerfile. In both dockerfiles you are free to add custom requirement and dependencies.<br><br>
+6. Pipfile and Pipfile.lock are created automatically when pipenv environment is created .<br><br>
 summary.txt is summary of this whole project.
 
 ## Bug / Feature Request
