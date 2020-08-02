@@ -1,0 +1,37 @@
+if pipenv is not used but any other virtualenv then requiremtns.txt is also should be run
+
+
+
+docker build -t jup_doc -f Dockerfile .    -->> to run this be inside jup_doc folder as this folder contains Dockerfile
+
+docker run -it jup_doc /bin/bash   ---- no need of above in terminal  ---- now we r in docker_server/app/all_files_present_inside_here
+
+exit 
+
+
+
+
+heroku create app
+heroku push 
+heroku release
+heroku open
+
+
+
+
+for each sh:
+	chmod +x filename.sh
+	./filename.sh
+chmod +x entrypoint.sh
+
+
+
+
+
+
+no-slug size limit if using docker
+
+
+
+
+https://www.codingforentrepreneurs.com/blog/jupyter-production-server-on-docker-heroku
