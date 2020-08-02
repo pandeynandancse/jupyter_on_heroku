@@ -73,7 +73,7 @@ If you'd like to do some contribution, feel free to do so by opening a pull requ
 
 
 ## Credit
-This project is part of my learning process from https://www.jucodingforentrepreneurs.com/blog/jupyter-production-server-on-docker-heroku
+This project is part of my learning process from https://www.codingforentrepreneurs.com/blog/jupyter-production-server-on-docker-heroku
 
  
 
